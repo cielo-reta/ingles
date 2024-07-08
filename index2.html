@@ -1,0 +1,407 @@
+<style>
+    /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos específicos para los ejemplos */
+span {
+    font-style: italic;
+    color: #777;
+}
+
+#too-not-enough-feedback, #intensifiers-positive-feedback, #intensifiers-negative-feedback,
+#comparative-superlative-feedback, #affirmative-statements-feedback, #negative-statement-feedback,
+#past-modal-verbs-feedback, #connectors-feedback {
+    display: block;
+    margin-top: 5px;
+    color: #555;
+}
+
+
+</style>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INGLES PARCIALES (SUERTE MI AMOR TE AMO)</title>
+   
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Página Educativa de Inglés</h1>
+        <nav>
+            <ul>
+                <li><a href="#too-not-enough">TOO AND NOT ENOUGH</a></li>
+                <li><a href="#intensifiers-positive">INTENSIFIERS (POSITIVE)</a></li>
+                <li><a href="#intensifiers-negative">INTENSIFIERS (NEGATIVE)</a></li>
+                <li><a href="#comparative-superlative">COMPARATIVE AND SUPERLATIVE ADJECTIVES</a></li>
+                <li><a href="#affirmative-statements">AFFIRMATIVE STATEMENTS</a></li>
+                <li><a href="#negative-statement">NEGATIVE STATEMENT</a></li>
+                <li><a href="#past-modal-verbs">PAST MODAL VERBS AND SPECIAL CASES</a></li>
+                <li><a href="#connectors">CONNECTORS (CAUSE AND EFFECT, ADDITION, ILLUSTRATION, SEQUENCING WORDS)</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <section id="too-not-enough">
+        <h2>TOO AND NOT ENOUGH</h2>
+        <p>Too se utiliza para indicar que algo es excesivo o más de lo necesario. Not enough se utiliza para indicar que algo no es suficiente.</p>
+        <p>Ejemplo de oración: <span id="too-not-enough-example">El café está demasiado caliente.</span></p>
+        <input type="text" id="too-not-enough-input" placeholder="Escribe tu ejemplo...">
+        <span id="too-not-enough-feedback"></span>
+        <p>Más información:</p>
+        <ul>
+            <li><strong>Too:</strong> Se utiliza con adjetivos y adverbios para expresar que algo es más de lo deseado o necesario.</li>
+            <li><strong>Not enough:</strong> Se utiliza para indicar que algo no alcanza el nivel necesario o deseado.</li>
+            <li><strong>Ejemplos adicionales:</strong>
+                <ul>
+                    <li>She ate too much chocolate.</li>
+                    <li>There are too many cars on the road.</li>
+                    <li>This jacket is too small for me.</li>
+                    <li>He doesn't have enough time to finish the project.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="intensifiers-positive">
+        <h2>INTENSIFIERS (POSITIVE)</h2>
+        <p>Los intensificadores positivos se utilizan para enfatizar algo positivamente.</p>
+        <p>Ejemplo de oración: <span id="intensifiers-positive-example">She is extremely happy.</span></p>
+        <input type="text" id="intensifiers-positive-input" placeholder="Escribe tu ejemplo...">
+        <span id="intensifiers-positive-feedback"></span>
+        <p>Más información:</p>
+        <ul>
+            <li><strong>Intensifiers positivos:</strong> Añaden intensidad a un adjetivo o adverbio positivo.</li>
+            <li><strong>Ejemplos adicionales:</strong>
+                <ul>
+                    <li>The weather is absolutely perfect today.</li>
+                    <li>He was incredibly kind to everyone.</li>
+                    <li>She is very talented at playing the piano.</li>
+                    <li>This cake is exceptionally delicious.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="intensifiers-negative">
+        <h2>INTENSIFIERS (NEGATIVE)</h2>
+        <p>Los intensificadores negativos se utilizan para enfatizar algo negativamente.</p>
+        <p>Ejemplo de oración: <span id="intensifiers-negative-example">He is not entirely satisfied.</span></p>
+        <input type="text" id="intensifiers-negative-input" placeholder="Escribe tu ejemplo...">
+        <span id="intensifiers-negative-feedback"></span>
+        <p>Más información:</p>
+        <ul>
+            <li><strong>Intensifiers negativos:</strong> Añaden intensidad a un adjetivo o adverbio negativo.</li>
+            <li><strong>Ejemplos adicionales:</strong>
+                <ul>
+                    <li>She is not completely sure about the plan.</li>
+                    <li>The situation is far from ideal.</li>
+                    <li>He wasn't entirely honest with me.</li>
+                    <li>The movie was hardly entertaining.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="comparative-superlative">
+        <h2>COMPARATIVE AND SUPERLATIVE ADJECTIVES</h2>
+        <p>Los adjetivos comparativos y superlativos se utilizan para comparar cosas o personas.</p>
+        <p>Ejemplo de oración: <span id="comparative-superlative-example">She is taller than her sister.</span></p>
+        <input type="text" id="comparative-superlative-input" placeholder="Escribe tu ejemplo...">
+        <span id="comparative-superlative-feedback"></span>
+        <p>Más información:</p>
+        <ul>
+            <li><strong>Comparativo:</strong> Se utiliza para comparar dos cosas o personas.</li>
+            <li><strong>Superlativo:</strong> Se utiliza para describir algo como el más alto o el mejor en una categoría.</li>
+            <li><strong>Ejemplos adicionales:</strong>
+                <ul>
+                    <li>This book is more interesting than that one.</li>
+                    <li>She is the tallest girl in her class.</li>
+                    <li>Today is hotter than yesterday.</li>
+                    <li>He is the fastest runner on the team.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="affirmative-statements">
+        <h2>AFFIRMATIVE STATEMENTS</h2>
+        <p>Las afirmaciones afirmativas se utilizan para expresar hechos o situaciones positivas.</p>
+        <p>Ejemplo de oración: <span id="affirmative-statements-example">He plays tennis every weekend.</span></p>
+        <input type="text" id="affirmative-statements-input" placeholder="Escribe tu ejemplo...">
+        <span id="affirmative-statements-feedback"></span>
+        <p>Más información:</p>
+        <ul>
+            <li><strong>Afirmaciones afirmativas:</strong> Declaraciones que expresan hechos positivos.</li>
+            <li><strong>Ejemplos adicionales:</strong>
+                <ul>
+                    <li>She speaks English fluently.</li>
+                    <li>They live in a beautiful house.</li>
+                    <li>He always arrives on time.</li>
+                    <li>We enjoy going to the beach.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="negative-statement">
+        <h2>NEGATIVE STATEMENT</h2>
+        <p>Las afirmaciones negativas se utilizan para expresar hechos o situaciones negativas.</p>
+        <p>Ejemplo de oración: <span id="negative-statement-example">He does not like spicy food.</span></p>
+        <input type="text" id="negative-statement-input" placeholder="Escribe tu ejemplo...">
+        <span id="negative-statement-feedback"></span>
+        <p>Más información:</p>
+        <ul>
+            <li><strong>Afirmaciones negativas:</strong> Declaraciones que expresan hechos negativos.</li>
+            <li><strong>Ejemplos adicionales:</strong>
+                <ul>
+                    <li>They haven't finished their homework yet.</li>
+                    <li>She doesn't eat meat.</li>
+                    <li>He didn't attend the meeting yesterday.</li>
+                    <li>We won't go to the party tonight.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="past-modal-verbs">
+        <h2>PAST MODAL VERBS AND SPECIAL CASES</h2>
+        <p>Los verbos modales en pasado se utilizan para expresar posibilidades, permisos, habilidades, etc., en el pasado.</p>
+        <p>Ejemplo de oración: <span id="past-modal-verbs-example">She should have studied more.</span></p>
+        <input type="text" id="past-modal-verbs-input" placeholder="Escribe tu ejemplo...">
+        <span id="past-modal-verbs-feedback"></span>
+        <p>Más información:</p>
+        <ul>
+            <li><strong>Verbos modales en pasado:</strong> Se utilizan para hablar sobre situaciones pasadas que involucran modalidad (posibilidad, permiso, habilidad, etc.).</li>
+            <li><strong>Ejemplos adicionales:</strong>
+                <ul>
+                    <li>He could have won the race.</li>
+                    <li>We might have missed the bus.</li>
+                    <li>They shouldn't have eaten so much.</li>
+                    <li>She must have forgotten her keys.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="connectors">
+        <h2>CONNECTORS (CAUSE AND EFFECT, ADDITION, ILLUSTRATION, SEQUENCING WORDS)</h2>
+        <p>Los conectores se utilizan para unir ideas y mejorar la coherencia del texto.</p>
+        <p>Ejemplo de oración: <span id="connectors-example">He missed the bus because he woke up late.</span></p>
+        <input type="text" id="connectors-input" placeholder="Escribe tu ejemplo...">
+        <span id="connectors-feedback"></span>
+        <p>Más información:</p>
+        <ul>
+            <li><strong>Conectores:</strong> Palabras o frases que conectan ideas y partes del discurso.</li>
+            <li><strong>Ejemplos adicionales:</strong>
+                <ul>
+                    <li>Cause and Effect: She was tired because she didn't sleep well.</li>
+                    <li>Addition: He likes ice cream and cake.</li>
+                    <li>Illustration: For example, they enjoy hiking in the mountains.</li>
+                    <li>Sequencing Words: First, we prepared the ingredients. Next, we started cooking.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Página Educativa de Inglés. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script  >// Script para manejar la retroalimentación de ejemplos
+document.getElementById('too-not-enough-input').addEventListener('input', function() {
+    var inputText = this.value.trim();
+    var exampleSpan = document.getElementById('too-not-enough-example');
+    var feedbackSpan = document.getElementById('too-not-enough-feedback');
+    if (inputText.toLowerCase() === 'el café está demasiado caliente') {
+        feedbackSpan.textContent = '¡Correcto!';
+        feedbackSpan.style.color = 'green';
+    } else {
+        feedbackSpan.textContent = 'Inténtalo de nuevo.';
+        feedbackSpan.style.color = 'red';
+    }
+});
+
+document.getElementById('intensifiers-positive-input').addEventListener('input', function() {
+    var inputText = this.value.trim();
+    var exampleSpan = document.getElementById('intensifiers-positive-example');
+    var feedbackSpan = document.getElementById('intensifiers-positive-feedback');
+    if (inputText.toLowerCase() === 'she is extremely happy') {
+        feedbackSpan.textContent = '¡Correcto!';
+        feedbackSpan.style.color = 'green';
+    } else {
+        feedbackSpan.textContent = 'Inténtalo de nuevo.';
+        feedbackSpan.style.color = 'red';
+    }
+});
+
+document.getElementById('intensifiers-negative-input').addEventListener('input', function() {
+    var inputText = this.value.trim();
+    var exampleSpan = document.getElementById('intensifiers-negative-example');
+    var feedbackSpan = document.getElementById('intensifiers-negative-feedback');
+    if (inputText.toLowerCase() === 'he is not entirely satisfied') {
+        feedbackSpan.textContent = '¡Correcto!';
+        feedbackSpan.style.color = 'green';
+    } else {
+        feedbackSpan.textContent = 'Inténtalo de nuevo.';
+        feedbackSpan.style.color = 'red';
+    }
+});
+
+document.getElementById('comparative-superlative-input').addEventListener('input', function() {
+    var inputText = this.value.trim();
+    var exampleSpan = document.getElementById('comparative-superlative-example');
+    var feedbackSpan = document.getElementById('comparative-superlative-feedback');
+    if (inputText.toLowerCase() === 'she is taller than her sister') {
+        feedbackSpan.textContent = '¡Correcto!';
+        feedbackSpan.style.color = 'green';
+    } else {
+        feedbackSpan.textContent = 'Inténtalo de nuevo.';
+        feedbackSpan.style.color = 'red';
+    }
+});
+
+document.getElementById('affirmative-statements-input').addEventListener('input', function() {
+    var inputText = this.value.trim();
+    var exampleSpan = document.getElementById('affirmative-statements-example');
+    var feedbackSpan = document.getElementById('affirmative-statements-feedback');
+    if (inputText.toLowerCase() === 'he plays tennis every weekend') {
+        feedbackSpan.textContent = '¡Correcto!';
+        feedbackSpan.style.color = 'green';
+    } else {
+        feedbackSpan.textContent = 'Inténtalo de nuevo.';
+        feedbackSpan.style.color = 'red';
+    }
+});
+
+document.getElementById('negative-statement-input').addEventListener('input', function() {
+    var inputText = this.value.trim();
+    var exampleSpan = document.getElementById('negative-statement-example');
+    var feedbackSpan = document.getElementById('negative-statement-feedback');
+    if (inputText.toLowerCase() === 'he does not like spicy food') {
+        feedbackSpan.textContent = '¡Correcto!';
+        feedbackSpan.style.color = 'green';
+    } else {
+        feedbackSpan.textContent = 'Inténtalo de nuevo.';
+        feedbackSpan.style.color = 'red';
+    }
+});
+
+document.getElementById('past-modal-verbs-input').addEventListener('input', function() {
+    var inputText = this.value.trim();
+    var exampleSpan = document.getElementById('past-modal-verbs-example');
+    var feedbackSpan = document.getElementById('past-modal-verbs-feedback');
+    if (inputText.toLowerCase() === 'she should have studied more') {
+        feedbackSpan.textContent = '¡Correcto!';
+        feedbackSpan.style.color = 'green';
+    } else {
+        feedbackSpan.textContent = 'Inténtalo de nuevo.';
+        feedbackSpan.style.color = 'red';
+    }
+});
+
+document.getElementById('connectors-input').addEventListener('input', function() {
+    var inputText = this.value.trim();
+    var exampleSpan = document.getElementById('connectors-example');
+    var feedbackSpan = document.getElementById('connectors-feedback');
+    if (inputText.toLowerCase() === 'he missed the bus because he woke up late') {
+        feedbackSpan.textContent = '¡Correcto!';
+        feedbackSpan.style.color = 'green';
+    } else {
+        feedbackSpan.textContent = 'Inténtalo de nuevo.';
+        feedbackSpan.style.color = 'red';
+    }
+});
+</script>
+</body>
+</html>
